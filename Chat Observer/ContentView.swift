@@ -6,17 +6,32 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
+    
+    private let url = URL(string: "https://duckduckgo.com/?t=h_&q=_&ia=chat")!
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            WebView(url: url)
         }
-        .padding()
     }
+}
+
+struct WebView: UIViewRepresentable {
+    
+    let url: URL
+    
+    func makeUIView(context: Context) -> WKWebView {
+        return WKWebView()
+    }
+    
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        let request = URLRequest(url: url)
+        uiView.load(request)
+    }
+    
 }
 
 #Preview {
