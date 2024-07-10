@@ -14,6 +14,7 @@
 		51768B552C3E527400EE086E /* Chat_ObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51768B542C3E527400EE086E /* Chat_ObserverTests.swift */; };
 		51768B5F2C3E527400EE086E /* Chat_ObserverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51768B5E2C3E527400EE086E /* Chat_ObserverUITests.swift */; };
 		51768B612C3E527400EE086E /* Chat_ObserverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51768B602C3E527400EE086E /* Chat_ObserverUITestsLaunchTests.swift */; };
+		51768B6E2C3E635400EE086E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51768B6D2C3E635400EE086E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		51768B5A2C3E527400EE086E /* Chat ObserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat ObserverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51768B5E2C3E527400EE086E /* Chat_ObserverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_ObserverUITests.swift; sourceTree = "<group>"; };
 		51768B602C3E527400EE086E /* Chat_ObserverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_ObserverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51768B6D2C3E635400EE086E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				51768B432C3E527300EE086E /* Chat_ObserverApp.swift */,
 				51768B452C3E527300EE086E /* ContentView.swift */,
+				51768B6D2C3E635400EE086E /* WebView.swift */,
 				51768B472C3E527400EE086E /* Assets.xcassets */,
 				51768B492C3E527400EE086E /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51768B6E2C3E635400EE086E /* WebView.swift in Sources */,
 				51768B462C3E527300EE086E /* ContentView.swift in Sources */,
 				51768B442C3E527300EE086E /* Chat_ObserverApp.swift in Sources */,
 			);
